@@ -10,6 +10,12 @@ import UIKit
 
 class JsonDataTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var countryIdLabel: UILabel!
+    @IBOutlet weak var countryCodeLabel: UILabel!
+    @IBOutlet weak var countryNameLabel: UILabel!
+    @IBOutlet weak var countryStatusLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,7 +24,6 @@ class JsonDataTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }
